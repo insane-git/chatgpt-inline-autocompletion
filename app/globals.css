@@ -79,7 +79,7 @@
   }
 }
 body {
-  @apply text-white bg-slate-800 min-h-[95vh];
+  @apply text-white bg-slate-800 min-h-screen py-2;
 }
 textarea {
   @apply rounded resize-none outline-slate-900 bg-slate-900 ;
