@@ -182,7 +182,7 @@ const SuggestionTextarea = () => {
   };
 
   return (
-    <div>
+    <div className="dark">
       <textarea
         placeholder={placeholder}
         className="w-[90vw] mx-auto flex justify-center m-2 p-2 h-24 rounded"
