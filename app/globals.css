@@ -78,3 +78,26 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+body {
+  @apply text-white bg-slate-800;
+}
+textarea {
+  @apply rounded resize-none outline-slate-900 bg-slate-900 ;
+}
+/* Scrollbar  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-700;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  @apply bg-slate-600;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-900;
+}
